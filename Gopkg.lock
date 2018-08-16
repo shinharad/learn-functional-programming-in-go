@@ -40,6 +40,12 @@
   version = "v0.1"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/go-goodies/go_currency"
+  packages = ["."]
+  revision = "bf5e29957fc495f772d938b17185d50de8f36fd0"
+
+[[projects]]
   name = "github.com/golang/protobuf"
   packages = [
     "proto",
@@ -238,6 +244,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2f67778f71643c5bc08ecd571437e6d5f8beb5ad6ca761c19a2d5ed41912e7f1"
+  inputs-digest = "3c9db1512de7fdf2df8d3fd3e1059d0cd8c9b3ca549f9252ffc28700228555bf"
   solver-name = "gps-cdcl"
   solver-version = 1
